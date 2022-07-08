@@ -1,14 +1,14 @@
-F:\MinGW-w64\mingw32\bin\make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'all'.  Stop.
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make.exe: *** No rule to make target 'all'.  Stop.
 
 # GNU Make 4.2.1
-# Built for i686-w64-mingw32
+# Built for x86_64-w64-mingw32
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Jul 04 18:38:06 2022
+# Make data base, printed on Sat Jul 09 04:08:15 2022
 
 # Variables
 
@@ -22,8 +22,6 @@ GNUMAKEFLAGS :=
 .SHELLFLAGS := -c
 # makefile
 MAKEFLAGS = pqrR
-# environment
-VSCODE_LOG_NATIVE = false
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -35,21 +33,23 @@ HOMEDRIVE = C:
 # automatic
 ^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
 # makefile
-CURDIR := v:/OneDrive/Libs/car/car
+CURDIR := f:/Source/car/car
 # default
 SHELL := sh.exe
 # environment
-CLION = F:\Code\CLion 2021.3.2\bin;
+CLION = D:\Code\JetBrains\CLion 2021.2.3\bin;C:\MinGW\mingw64\bin;
 # environment
-WINDIR = C:\Windows
+OA_PLUGIN_PATH = D:\Cadence\SP\Share\oaPlugIns
 # environment
-VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"bbca1a7059cee8a1b93da8947fee1c4f.zh-cn","_translationsConfigFile":"C:\\Users\\19526\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn\\tcf.json","_cacheRoot":"C:\\Users\\19526\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn","_resolvedLanguagePackCoreLocation":"C:\\Users\\19526\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn\\30d9c6cd9483b2cc586687151bcbcd635f373630","_corruptedFile":"C:\\Users\\19526\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn\\corrupted.info","_languagePackSupport":true}
+WINDIR = C:\WINDOWS
 # environment
-PYCHARM COMMUNITY EDITION = F:\Code\PyCharm Community Edition 2021.3.1\bin;
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"bbca1a7059cee8a1b93da8947fee1c4f.zh-cn","_translationsConfigFile":"C:\\Users\\12bad\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn\\tcf.json","_cacheRoot":"C:\\Users\\12bad\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn","_resolvedLanguagePackCoreLocation":"C:\\Users\\12bad\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn\\92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9","_corruptedFile":"C:\\Users\\12bad\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn\\corrupted.info","_languagePackSupport":true}
 # environment
-ONEDRIVE = V:\OneDrive
+PYCHARM COMMUNITY EDITION = D:\Code\JetBrains\PyCharm Community Edition 2021.2.3\bin;
 # environment
-WEBOTS_HOME = F:\tools\Webots
+ONEDRIVE = F:\OneDrive
+# environment
+WEBOTS_HOME = D:\Webots
 # environment
 PUBLIC = C:\Users\Public
 # environment
@@ -57,53 +57,55 @@ PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
 # makefile
 MAKEFILE_LIST := 
 # environment
-FPS_BROWSER_USER_PROFILE_STRING = Default
-# environment
-TMP = C:\Users\19526\AppData\Local\Temp
-# environment
-VSCODE_VERBOSE_LOGGING = true
+TMP = C:\Users\12bad\AppData\Local\Temp
 # environment
 PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-e9debed5-86a1-46a7-a9db-c01c69cee646-sock
+CDSROOT = D:\Cadence\SP
 # environment
-VSCODE_CWD = V:\OneDrive\Libs\car\car
+VSCODE_CWD = D:\Code\Microsoft VS Code
+# environment
+CDS_LIC_ONLY = 1
 # default
-MAKE_HOST := i686-w64-mingw32
+MAKE_HOST := x86_64-w64-mingw32
 # environment
-PATH = F:\Code\Python38\Scripts\;F:\Code\Python38\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;F:\Code\Python\Scripts\;F:\Code\Python\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;F:\tools\Git\cmd;V:\Program Files (x86)\IncrediBuild;F:\tools\Bandizip\;F:\MATLAB\runtime\win64;F:\MATLAB\bin;F:\MATLAB\polyspace\bin;F:\CMake\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Users\19526\AppData\Local\Microsoft\WindowsApps;F:\Code\Microsoft VS Code\bin;F:\Code\PyCharm Community Edition 2021.3.1\bin;;F:\MinGW-w64\mingw32\bin;F:\OpenOCD\bin;F:\gcc-arm-none-eabi\10 2021.10\bin;F:\Code\CLion 2021.3.2\bin;;
+PATH = D:\Code\AiThinkerIDE_V1.0\msys32\opt\arm-nono-eabi-gcc\bin;D:\Code\AiThinkerIDE_V1.0\msys32\opt\xtensa-lx106-elf\bin;D:\Code\AiThinkerIDE_V1.0\msys32\opt\xtensa-esp32-elf\bin;E:\AiThinkerIDE_V1.0\msys32\mingw32\bin;E:\AiThinkerIDE_V1.0\msys32\usr\bin;E:\AiThinkerIDE_V1.0\eclipse\eclipse.exe;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\Python\Scripts\;D:\Python\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Basic\py\Scripts\;D:\Basic\py\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;D:\Cadence\SP\tools\pcb\bin;D:\Cadence\SP\tools\bin;D:\Cadence\SP\tools\libutil\bin;D:\Cadence\SP\tools\fet\bin;D:\Cadence\SP\tools\specctra\bin;D:\Cadence\SP\tools\pspice;D:\Cadence\SP\tools\capture;D:\Cadence\SP\openaccess\bin\win32\opt;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;D:\MATLAB\runtime\win64;D:\MATLAB\bin;D:\MATLAB\polyspace\bin;D:\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Users\12bad\AppData\Local\Microsoft\WindowsApps;D:\Code\Microsoft VS Code\bin;D:\Code\JetBrains\PyCharm Community Edition 2021.2.3\bin;D:\Code\JetBrains\IntelliJ IDEA Community Edition 2021.2.3\bin;D:\Code\JetBrains\CLion 2021.2.3\bin;C:\MinGW\mingw64\bin;D:\Bandizip\;C:\Users\12bad\.dotnet\tools;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;D:\Graphviz\bin;D:\Code\CMake\bin;C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\11.2 2022.02\bin;C:\Users\12bad\AppData\Local\Microsoft\WindowsApps;D:\Code\Microsoft VS Code\bin;D:\Code\JetBrains\PyCharm Community Edition 2021.2.3\bin;;D:\Code\JetBrains\IntelliJ IDEA Community Edition 2021.2.3\bin;;D:\Code\JetBrains\CLion 2021.2.3\bin;C:\MinGW\mingw64\bin;;D:\Bandizip\;C:\Users\12bad\.dotnet\tools
 # environment
 SW_SIM_HYDRA = C:\Program Files\Common Files\SolidWorks Shared\Simulation Worker Agent\
 # environment
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # environment
-ZES_ENABLE_SYSMAN = 1
+CONCEPT_INST_DIR = D:\Cadence\SP
 # environment
-PROCESSOR_ARCHITECTURE = x86
+CHOCOLATEYLASTPATHUPDATE = 132850945803274883
 # environment
-USERPROFILE = C:\Users\19526
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+USERPROFILE = C:\Users\12bad
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
 # environment
 ALLUSERSPROFILE = C:\ProgramData
 # environment
-VSCODE_LOG_STACK = false
-# environment
-NUMBER_OF_PROCESSORS = 8
+NUMBER_OF_PROCESSORS = 12
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync
+# environment
+HOME = D:\Cadence\SPBData
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9880_YIWRPPGYQYBDDBHR
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_14256_ZHCEXAUBXEEXBAXF
 # environment
-VSCODE_PIPE_LOGGING = true
+CHDL_LIB_INST_DIR = D:\Cadence\SP
 # environment
-COMPUTERNAME = DESKTOP-9I6E12R
+COMPUTERNAME = DESKTOP-VJ93EB0
 # environment
-PROGRAMFILES = C:\Program Files (x86)
+PROGRAMFILES = C:\Program Files
 # default
 .LOADED := 
 # environment
@@ -111,27 +113,33 @@ DRIVERDATA = C:\Windows\System32\Drivers\DriverData
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
-USERNAME = 19526
+USERNAME = 12bad
 # environment
 KMP_DUPLICATE_LIB_OK = TRUE
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\19526\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
+BESIEGE_UNITY_ASSEMBLIES = E:/SteamLibrary/steamapps/common/Besiege/Besiege_Data\Managed/
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\12bad\AppData\Roaming\Code\CachedData\92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
-COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES = C:\Program Files\Common Files
 # environment
-LOGONSERVER = \\DESKTOP-9I6E12R
+LOGONSERVER = \\DESKTOP-VJ93EB0
 # environment
-ONEDRIVECONSUMER = V:\OneDrive
+CDS_LIC_FILE = 5280@DESKTOP-VJ93EB0
+# environment
+ONEDRIVECONSUMER = F:\OneDrive
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # environment
-USERDOMAIN = DESKTOP-9I6E12R
+USERDOMAIN = DESKTOP-VJ93EB0
 # environment
 MAKELEVEL := 0
+# environment
+INTELLIJ IDEA COMMUNITY EDITION = D:\Code\JetBrains\IntelliJ IDEA Community Edition 2021.2.3\bin;
 # default
 MAKE = $(MAKE_COMMAND)
 # default
@@ -145,25 +153,23 @@ PROGRAMFILES(X86) = C:\Program Files (x86)
 # automatic
 %D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
 # environment
-LOCALAPPDATA = C:\Users\19526\AppData\Local
+LOCALAPPDATA = C:\Users\12bad\AppData\Local
 # environment
-PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
 # default
-MAKE_COMMAND := F:/MinGW-w64/mingw32/bin/make
-# environment
-PROCESSOR_ARCHITEW6432 = AMD64
+MAKE_COMMAND := make.exe
 # default
 .VARIABLES := 
 # automatic
 *F = $(notdir $*)
 # environment
-PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 165 Stepping 3, GenuineIntel
 # environment
 OS = Windows_NT
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\4bdb26e5aa2039ace81ccaf03d144f94-1.68.1-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\1dbb9c637359f7bc7af8f002bba8423d-1.69.0-main-sock
 # environment
-HOMEPATH = \Users\19526
+HOMEPATH = \Users\12bad
 # environment
 COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
 # environment
@@ -173,17 +179,21 @@ MFLAGS = -pqrR
 # automatic
 *D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
 # environment
-SYSTEMROOT = C:\Windows
+SYSTEMROOT = C:\WINDOWS
 # automatic
 +D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
 # automatic
 +F = $(notdir $+)
 # environment
-APPDATA = C:\Users\19526\AppData\Roaming
+APPDATA = C:\Users\12bad\AppData\Roaming
 # environment
-TEMP = C:\Users\19526\AppData\Local\Temp
+__COMPAT_LAYER = DetectorsAppHealth
 # environment
-COMSPEC = C:\Windows\system32\cmd.exe
+TEMP = C:\Users\12bad\AppData\Local\Temp
+# environment
+BESIEGE_GAME_ASSEMBLIES = E:/SteamLibrary/steamapps/common/Besiege/Besiege_Data\Managed/
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
 # default
 MAKEFILES := 
 # automatic
@@ -203,7 +213,7 @@ SYSTEMDRIVE = C:
 # environment
 SESSIONNAME = Console
 # environment
-PROCESSOR_REVISION = 8e0c
+PROCESSOR_REVISION = a503
 # environment
 SW_SIM_MPIT = INTELMPI
 # default
@@ -213,13 +223,11 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+VSCODE_PID = 14256
 # environment
-VSCODE_PID = 9880
-# environment
-USERDOMAIN_ROAMINGPROFILE = DESKTOP-9I6E12R
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-VJ93EB0
 # variable set hash-table stats:
-# Load=103/1024=10%, Rehash=0, Collisions=16/121=13%
+# Load=107/1024=10%, Rehash=0, Collisions=18/125=14%
 
 # Pattern-specific Variable Values
 
@@ -227,9 +235,9 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-9I6E12R
 
 # Directories
 
-# . (key v:/OneDrive/Libs/car/car, mtime 1656931085): 10 files, no impossibilities.
+# . (key f:/Source/car/car, mtime 1657301164): 11 files, no impossibilities.
 
-# 10 files, no impossibilities in 1 directories.
+# 11 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -286,12 +294,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 17 / storage = 141 B / avg = 8 B
-# current buf: size = 8174 B / used = 141 B / count = 17 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 18 / storage = 153 B / avg = 8 B
+# current buf: size = 8162 B / used = 153 B / count = 18 / avg = 8 B
 
-# strcache performance: lookups = 19 / hit rate = 10%
+# strcache performance: lookups = 20 / hit rate = 10%
 # hash-table stats:
-# Load=17/8192=0%, Rehash=0, Collisions=1/19=5%
-# Finished Make data base on Mon Jul 04 18:38:06 2022
+# Load=18/8192=0%, Rehash=0, Collisions=1/20=5%
+# Finished Make data base on Sat Jul 09 04:08:15 2022
 
  
