@@ -1,0 +1,7 @@
+F:\MinGW-w64\mingw32\bin\make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'v:/OneDrive/Libs/car'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+
+make: Leaving directory 'v:/OneDrive/Libs/car'
+ 

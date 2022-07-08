@@ -1,0 +1,3 @@
+V:/Sources/stm32/test2/Modules/Debug/build/CMakeFiles/shell.dir
+V:/Sources/stm32/test2/Modules/Debug/build/CMakeFiles/edit_cache.dir
+V:/Sources/stm32/test2/Modules/Debug/build/CMakeFiles/rebuild_cache.dir

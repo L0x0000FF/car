@@ -1,0 +1,12 @@
+[
+{
+  "directory": "V:/Sources/stm32/test2/Modules/Debug/build",
+  "command": "F:\\MinGW-w64\\mingw32\\bin\\i686-w64-mingw32-g++.exe   -g -o CMakeFiles\\shell.dir\\main.cpp.obj -c V:\\Sources\\stm32\\test2\\Modules\\Debug\\main.cpp",
+  "file": "V:/Sources/stm32/test2/Modules/Debug/main.cpp"
+},
+{
+  "directory": "V:/Sources/stm32/test2/Modules/Debug/build",
+  "command": "F:\\MinGW-w64\\mingw32\\bin\\i686-w64-mingw32-g++.exe   -g -o CMakeFiles\\shell.dir\\shell.cpp.obj -c V:\\Sources\\stm32\\test2\\Modules\\Debug\\shell.cpp",
+  "file": "V:/Sources/stm32/test2/Modules/Debug/shell.cpp"
+}
+]

@@ -1,0 +1,8 @@
+{
+  "files.associations": {
+    "main.h": "c",
+    "circular_queue.h": "c",
+    "algorithm": "cpp",
+    "xutility": "cpp"
+  }
+}
